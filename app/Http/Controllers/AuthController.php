@@ -2,26 +2,17 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\LoginUserRequest;
+use App\Http\Requests\RegisterUserRequest;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
 class AuthController extends Controller
 {
-    public function register(Request $request)
+    public function register(RegisterUserRequest $request)
     {
-        $request->validate([
-            'first_name'=>'required',
-            'last_name'=>'required',
-            'phone_number'=>['required','unique:users,phone_number'],
-            'password'=>'required|confirmed|min:8',
-        ]);
-        $user=User::create([
-            'first_name'=>$request->first_name,
-            'last_name'=>$request->last_name,
-            'phone_number'=>$request->phone_number,
-            'password'=>$request->password,
-        ]);
+        $user=User::create($request->validated());
         $token = $user->createToken('auth_token')->plainTextToken;
         Auth::login($user);
         return response()->json([
@@ -31,13 +22,10 @@ class AuthController extends Controller
         ]);
 
     }
-    public function login(Request $request)
+    public function login(LoginUserRequest $request)
     {
-        $request->validate([
-            'phone_number' => 'required',
-            'password' => 'required|string|min:8',
-        ]);
-        if (!Auth::attempt($request->only('phone_number', 'password'))) {
+
+        if (!Auth::attempt($request->only('phone_number', 'password'))) { //attempt to authenticate the user
             return response()->json(['message' => 'Invalid phone_number or password'], 401);
         }
 
