@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\SearchForProductsRequest;
 use App\Models\Product;
 use Illuminate\Http\Request;
 
@@ -25,7 +26,7 @@ class ProductController extends Controller
             'name' => 'required|string|max:255',
             'price' => 'required|numeric',
             'store_id' => 'required|exists:stores,id',
-            'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif',
         ]);
 
         // رفع الصورة وتخزين مسارها
@@ -51,7 +52,7 @@ class ProductController extends Controller
         $product = Product::find($id);
 
         if (!$product) {
-            return response()->json(['message' => 'المنتج غير موجود'], 404);
+            return response()->json(['message' => 'product Not Found'], 404);
         }
 
         // تضمين رابط الصورة الكامل
@@ -74,5 +75,15 @@ class ProductController extends Controller
     public function destroy(string $id)
     {
         //
+    }
+
+    public function search(SearchForProductsRequest $request)
+    {
+        $product_name = $request->validated('name');
+        $products = Product::where('name', $product_name)->get();
+        if ($products->isEmpty()) {
+            return response()->json(['message' => 'No products found'], 404);
+        }
+        return response()->json($products,200);
     }
 }
