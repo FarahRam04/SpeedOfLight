@@ -12,7 +12,7 @@ class CategoryStoreController extends Controller
         $stores=Category::query()->findOrFail($id)->stores;
         return response()->json($stores,200);
     }
-    public function getProduct($id){
+    public function getProducts($id){
         $products=Store::query()->findOrFail($id)->products;
         return response()->json($products,200);
     }
