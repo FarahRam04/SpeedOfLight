@@ -6,7 +6,7 @@ use App\Models\Category;
 use App\Models\Store;
 use Illuminate\Http\Request;
 
-class UserController extends Controller
+class CategoryStoreController extends Controller
 {
     public function getStores($id){
         $stores=Category::query()->findOrFail($id)->stores;
