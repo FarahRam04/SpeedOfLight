@@ -20,7 +20,7 @@ Route::get('category/{id}',[CategoryStoreController::class,'getStores']); //4f//
 Route::post('/store/search',[CategoryStoreController::class,'search']);//1a//searching for stores
 Route::get('store/{id}',[CategoryStoreController::class,'getProducts']);//4f//showing products for each store
 
-Route::post('/product/store',[ProductController::class,'store']);//store a new product in the products table
+//Route::post('/product/store',[ProductController::class,'store']);//store a new product in the products table
 Route::post('/product/search',[ProductController::class,'search']);//1a//searching for products
 Route::get('/product/{id}', [ProductController::class, 'show']); // لعرض منتج معين//2a
 

@@ -21,27 +21,27 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        // تحقق من صحة البيانات
-        $validated = $request->validate([
-            'name' => 'required|string|max:255',
-            'price' => 'required|numeric',
-            'store_id' => 'required|exists:stores,id',
-            'image' => 'required|image|mimes:jpeg,png,jpg,gif',
-        ]);
-
-        // رفع الصورة وتخزين مسارها
-        $imagePath = $request->file('image')->store('images', 'public');
-
-        // إنشاء المنتج
-        $product = Product::create([
-            'name' => $validated['name'],
-            'price' => $validated['price'],
-            'store_id' => $validated['store_id'],
-            'image' => $imagePath,
-        ]);
-
-        // إعادة الاستجابة
-        return response()->json(['message' => 'تم إضافة المنتج بنجاح!', 'product' => $product], 201);
+//        // تحقق من صحة البيانات
+//        $validated = $request->validate([
+//            'name' => 'required|string|max:255',
+//            'price' => 'required|numeric',
+//            'store_id' => 'required|exists:stores,id',
+//            'image' => 'required|image|mimes:jpeg,png,jpg,gif',
+//        ]);
+//
+//        // رفع الصورة وتخزين مسارها
+//        $imagePath = $request->file('image')->store('images', 'public');
+//
+//        // إنشاء المنتج
+//        $product = Product::create([
+//            'name' => $validated['name'],
+//            'price' => $validated['price'],
+//            'store_id' => $validated['store_id'],
+//            'image' => $imagePath,
+//        ]);
+//
+//        // إعادة الاستجابة
+//        return response()->json(['message' => 'تم إضافة المنتج بنجاح!', 'product' => $product], 201);
     }
 
     /**
