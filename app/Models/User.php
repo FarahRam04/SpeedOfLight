@@ -25,6 +25,10 @@ class User extends Authenticatable
 //        'password',
 //    ];
 protected $guarded = [];
+    public function purchases()
+    {
+        return $this->hasMany(Purchase::class);
+    }
 
     /**
      * The attributes that should be hidden for serialization.

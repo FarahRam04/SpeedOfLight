@@ -9,6 +9,11 @@ use Illuminate\Http\Request;
 
 class CategoryStoreController extends Controller
 {
+    public function index()
+    {
+        $stores = Store::all();
+        return response()->json($stores,200);
+    }
     public function getStores($id){
         $stores=Category::query()->findOrFail($id)->stores;
         return response()->json($stores,200);

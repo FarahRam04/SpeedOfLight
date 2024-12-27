@@ -54,10 +54,6 @@ class ProductController extends Controller
         if (!$product) {
             return response()->json(['message' => 'product Not Found'], 404);
         }
-
-        // تضمين رابط الصورة الكامل
-        $product->image_url = asset('storage/' . $product->image);
-
         return response()->json($product, 200);
     }
 
@@ -80,10 +76,22 @@ class ProductController extends Controller
     public function search(SearchForProductsRequest $request)
     {
         $product_name = $request->validated('name');
-        $products = Product::where('name', $product_name)->get();
+        $products = Product::where('name','like','%'. $product_name . '%')->get();
         if ($products->isEmpty()) {
             return response()->json(['message' => 'No products found'], 404);
         }
         return response()->json($products,200);
+    }
+
+    public function top3()
+    {
+        $p1=Product::find(1);
+        $p1->image_url = asset('storage/' . $p1->image);
+        $p2=Product::find(35);
+        $p2->image_url = asset('storage/' . $p2->image);
+        $p3=Product::find(40);
+        $p3->image_url = asset('storage/' . $p3->image);
+
+        return response()->json([$p1,$p2,$p3],200);
     }
 }

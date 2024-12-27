@@ -17,33 +17,33 @@ class StoreTableSeeder extends Seeder
             [
                'name'=>'Ashley',
                'category_id'=>1,
-                'image'=>'images/Ashley.jpg'
+                'image'=>asset('storage/images/Ashley.jpg')
             ],
             [
                 'name'=>'Höffner',
                 'category_id'=>1,
-                'image'=>'images/Höffner.jpg'
+                'image'=>asset('storage/images/Höffner.jpg')
             ],
             [
                 'name'=>'IKEA',
                 'category_id'=>1,
-                'image'=>'images/IKEA.jpg'
+                'image'=>asset('storage/images/IKEA.jpg')
             ],
             [
                 'name'=>'möma',
                 'category_id'=>1,
-                'image'=>'images/möma.jpg'
+                'image'=>asset('storage/images/möma.jpg')
             ],
             //food
             [
                 'name'=>'Abpabdo',
                 'category_id'=>2,
-                'image'=>'images/Abpabdo.jpg'
+                'image'=>asset('storage/images/Abpabdo.jpg')
             ],
             [
                 'name'=>'crispyWay',
                 'category_id'=>2,
-                'image'=>'images/möma.jpg'
+                'image'=>asset('storage/images/möma.jpg')
             ],
 
 
