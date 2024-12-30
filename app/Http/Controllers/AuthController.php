@@ -46,4 +46,15 @@ class AuthController extends Controller
             'message' => 'Logout successfully',
         ]);
     }
+    public function uploadImage(Request $request){
+        $request->validate([
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg',
+        ]);
+        $imagePath = $request->file('image')->store('images', 'public');
+        $user=User::find(Auth::id());
+        $user->image=asset('storage/' . $imagePath);
+        $user->save();
+
+        return response()->json(['message'=>'Image uploaded successfully','path'=>$user->image]);
+    }
 }
