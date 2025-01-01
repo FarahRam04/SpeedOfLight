@@ -13,6 +13,7 @@ Route::post('/login',[AuthController::class,'login']);//login
 Route::post('/register',[AuthController::class,'register']);//register
 Route::post('/logout',[AuthController::class,'logout'])->middleware('auth:sanctum');//logout
 
+
 Route::post('/user/image',[AuthController::class,'uploadImage'])->middleware('auth:sanctum');
 Route::get('/user', function (Request $request) {
     return $request->user();
