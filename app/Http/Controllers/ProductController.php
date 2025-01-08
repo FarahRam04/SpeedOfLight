@@ -86,11 +86,11 @@ class ProductController extends Controller
     public function top3()
     {
         $p1=Product::find(1);
-        $p1->image_url = asset('storage/' . $p1->image);
+        $p1->image_url = asset('storage/images/' . $p1->image);
         $p2=Product::find(35);
-        $p2->image_url = asset('storage/' . $p2->image);
+        $p2->image_url = asset('storage/images/' . $p2->image);
         $p3=Product::find(40);
-        $p3->image_url = asset('storage/' . $p3->image);
+        $p3->image_url = asset('storage/images/' . $p3->image);
 
         return response()->json([$p1,$p2,$p3],200);
     }

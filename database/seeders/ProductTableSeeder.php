@@ -19,7 +19,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'$218.99',
                 'description'=>'Mark a turning point in your office tasks with this upright and ergonomic office chair. Let the breathable mesh back and plush fabric seat serve as a simple extension to your everyday work ventures. The back height and seat depth are both easily adjustable to fit your height and size, while two sturdy armrests are height adjustable to assist your vertical seat posturing. Tilt tension and lock functions allow you to recline and incline comfortably as needed. Fitted with five hooded dual-caster wheels give yourself the ability to easily glide over carpeted floors while naturally performing tasks without exertion.',
                 'store_id'=>1,
-                'image'=>asset('storage/images/Ashley1.png'),
+                'image'=>'Ashley1.png',
                 'quantity'=>'10',
             ],
             [
@@ -27,7 +27,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'$60.99',
                 'description'=> "Show your style and update your floor with the nuLOOM Thigpen Contemporary Area Rug. This durable, rug features a modern design of crisscross lines in contrasting shades. Its 100% polypropylene, power-loomed construction means this rug is made to last and keep its smooth feel. It is perfect in kid and pet-friendly spaces and even high-traffic areas. Caring for your new rug is easy—just vacuum it regularly and spot clean as needed. This easy-to-clean and maintain rug is ready for everyday wear and is sure to make a contemporary statement in your home.",
                 'store_id'=>1,
-                'image'=>asset('storage/images/Ashley2.png'),
+                'image'=>'Ashley2.png',
                 'quantity'=>'10',
             ],
             [
@@ -35,7 +35,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'$2,000.00',
                 'description'=> "Looking cool and contemporary is great. But when it comes down to it, you’re all about low-maintenance lounging. With the performance fabric on the Modmax sectional, cleaning spills is a breeze. And its customizable modular design caters to your ever-changing needs, whether you're setting up for family movie night or need extra seating when guests drop by.",
                 'store_id'=>1,
-                'image'=>asset('storage/images/Ashley3.png'),
+                'image'=>'Ashley3.png',
                 'quantity'=>'10',
             ],
             [
@@ -43,7 +43,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'$300.00',
                 'description'=>"With its back-to-nature sensibility, the Isanti dining room side chair is a natural fit for your well-edited space. A clean-lined design lets the beautifully organic quality and inherent luster of the wood shine through. From its textural upholstery to the refreshing light finish, it’s a piece that makes a statement by being remarkably understated.",
                 'store_id'=>1,
-                'image'=>asset('storage/images/Ashley4.png'),
+                'image'=>'Ashley4.png',
                 'quantity'=>'10',
             ],
             [
@@ -51,7 +51,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>"$449.00",
                 'description'=> "Are you ready for a good night's sleep? The Anniversary Edition 2.0 queen mattress offers pressure relief in all the right areas. Its high-density support foam, gel memory foam and individually wrapped coils accommodate all sleep positions. Give yourself the support you need to feel rested and refreshed.",
                 'store_id'=>1,
-                'image'=>asset('storage/images/Ashley5.png'),
+                'image'=>'Ashley5.png',
                 'quantity'=>'10',
             ],
             [
@@ -59,7 +59,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'$300.00',
                 'description'=>"Your kid's favorite canines come to life on this PAW Patrol Table & Chair Set with Storage from Delta Children. Featuring colorful graphics of the coolest pack of heroic puppies and their tech-savvy leader, Ryder, the spacious tabletop with built-in storage in the center makes tackling homework, crafting or snack-time so much easier.",
                 'store_id'=>1,
-                'image'=>asset('storage/images/Ashley6.png'),
+                'image'=>'Ashley6.png',
                 'quantity'=>'10',
             ],
             [
@@ -67,7 +67,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'$77.99 ',
                 'description'=>"Love a clean, uncluttered aesthetic? Make it work to your advantage with the Bayflynn bookcase. A simply striking choice in home office furniture, it has an unmistakable fresh feel thanks to a whitewashed finish and gunmetal frame. Four tiers offer loads of possibilities for storage and display space. This high-style element is welcome everywhere from the home office to the living room.",
                 'store_id'=>1,
-                'image'=>asset('storage/images/Ashley7.png'),
+                'image'=>'Ashley7.png',
                 'quantity'=>'10',
             ],
             [
@@ -75,7 +75,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'$299.99 ',
                 'description'=>"The Alisdair queen sleigh bed is the epitome of traditional decor. Its Louis Philippe-style moulding dates back to the mid-19th century, when furnishings were lavish yet somewhat simple. A deep finish brings warmth and elegance into the space. Mattress and foundation/box spring sold separately.",
                 'store_id'=>1,
-                'image'=>asset('storage/images/Ashley8.png'),
+                'image'=>'Ashley8.png',
                 'quantity'=>'10',
             ],
             //  IKEA
@@ -84,7 +84,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'£235.70',
                 'description'=>"Elevate your home office or workspace with the IKEA Linnmon/Adils Office Desk, a versatile and stylish solution for your work needs. This desk combines the clean lines and minimalist aesthetic of the Linnmon series with the sturdy and functional design of the Adils legs, creating a perfect blend of form and function.",
                 'store_id'=>3,
-                'image'=>asset('storage/images/IKEA1.png'),
+                'image'=>'IKEA1.png',
                 'quantity'=>'10',
             ],
             [
@@ -92,7 +92,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'£32.57',
                 'description'=>"We're excited to introduce this innovative product: AELS natural fiber doors, designed specifically for kallax shelving units and other cubby storage shelves. With different dimensions available, please measure your cube storage bookcase organizer and choose the right size. ",
                 'store_id'=>3,
-                'image'=>asset('storage/images/IKEA2.png'),
+                'image'=>'IKEA2.png',
                 'quantity'=>'10',
             ],
             [
@@ -100,7 +100,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'£363.81',
                 'description'=>"Brand new,in original Ikea package, Tallmyra Dark Red covers set, designed to fit the Gronlid 3-Seater Sofa only Brand new, complete set of replacement covers for frame, armrests and cushions Cover is easy to keep clean as is removable and can be machine washed Ikea article numbers: 503.968.76 ( 3-seat section covers) 303.970.23 ( armrests covers) Colour: Tallmyra Dark Red Please note: Listing is for cover only, no furniture is included in the sale price.",
                 'store_id'=>3,
-                'image'=>asset('storage/images/IKEA3.png'),
+                'image'=>'IKEA3.png',
                 'quantity'=>'10',
             ],
             [
@@ -108,7 +108,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'£462.08',
                 'description'=>"This is for Karlstad corner sofa cover. The package contains 16 pieces (Sofa cover + all the cushion covers). We only use high quality cotton for this sofa cover * compatible for Ikea karlstad sectional sofa cover, and we run a number of tests to make sure that our cover fits well to Ikea Karlstad corner sofa . The package includes one set of sofa covers, 16 pieces. Warning: These are sofa covers. Sofa is not included!",
                 'store_id'=>3,
-                'image'=>asset('storage/images/IKEA4.png'),
+                'image'=>'IKEA4.png',
                 'quantity'=>'10',
             ],
             [
@@ -116,7 +116,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'£53.61',
                 'description'=>"Storing things in a high place is neat, but it is difficult to get them out. This step stool product can be used to take out things from high places in the closet, and it looks good. Solid wood is a hardwearing natural material. Hand-hole in the top step makes the step stool easy to move. For indoor use. For increased stability, re-tighten the screws about two weeks after assembly and when necessary. Assembly Required.",
                 'store_id'=>3,
-                'image'=>asset('storage/images/IKEA5.png'),
+                'image'=>'IKEA5.png',
                 'quantity'=>'10',
             ],
             [
@@ -124,7 +124,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'£27.25',
                 'description'=>"Robust and durable: these floating bedside tables are made of 2 mm thick powder-coated steel, which gives it strength and firmness. Its surface is anti-fingerprint and durable, with a beautiful matte textured finish.",
                 'store_id'=>3,
-                'image'=>asset('storage/images/IKEA6.png'),
+                'image'=>'IKEA6.png',
                 'quantity'=>'10',
             ],
             [
@@ -132,7 +132,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'£11.05',
                 'description'=>"Drawer Organiser/Organiser System for Clothes",
                 'store_id'=>3,
-                'image'=>asset('storage/images/IKEA7.png'),
+                'image'=>'IKEA7.png',
                 'quantity'=>'10',
             ],
             [
@@ -140,7 +140,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'£74.82',
                 'description'=>"Lightweight, economical and sturdy closet organization products from IKEA. Make sure and look for the availability of a matching Skubb Closet SHOE organizer, too!",
                 'store_id'=>3,
-                'image'=>asset('storage/images/IKEA8.png'),
+                'image'=>'IKEA8.png',
                 'quantity'=>'10',
             ],
             //möma
@@ -149,7 +149,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'€ 116,82',
                 'description'=>'Entdecken Sie mit unserem Rollcontainer die optimale Lösung für Ihre Büroorganisation. Mit Maßen von ca. 45 cm Breite, 66 cm Höhe und 55 cm Tiefe bietet dieser Rollcontainer aus hochwertigem Holzwerkstoff reichlich Platz für Ihre Unterlagen und Büromaterialien.',
                 'store_id'=>4,
-                'image'=>asset('storage/images/möma1.png'),
+                'image'=>'möma1.png',
                 'quantity'=>'10',
             ],
             [
@@ -157,7 +157,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'€ 99,50',
                 'description'=>'Diesen traditionellen Weihnachtsbaum aus Kunststoff und Metall holen Sie alle Jahre wieder aus dem Keller hervor. Der grüne Kunststoffbaum besitzt einen Durchmesser von ca. 99 cm und begeistert mit einer Höhe von etwa 185 cm - ohne glänzende Spitze. Festlich behangen mit Kugeln in Gold und Rot versprüht der Baum im Handumdrehen strahlenden Charme. Zudem ist der Baum mit einem praktischen Ständer und einer LED-Lichterkette ausgestattet.',
                 'store_id'=>4,
-                'image'=>asset('storage/images/möma2.png'),
+                'image'=>'möma2.png',
                 'quantity'=>'10',
             ],
             [
@@ -165,7 +165,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'€ 767,‒',
                 'description'=>"Das Küchenmodell in Grau und Weiß mit alufarbenen Bügelgriffen überzeugt durch seine übersichtliche Größe und seine zweckmäßige Ausstattung. Kombiniert mit einer ca. 28 mm starken Arbeitsplatte in Nussbaum Dekor wirkt das Ensemble aus drei Ober- und zwei Unterschränken (davon ein Spülenunterschrank) schön wohnlich.",
                 'store_id'=>4,
-                'image'=>asset('storage/images/möma3.png'),
+                'image'=>'möma3.png',
                 'quantity'=>'10',
             ],
             [
@@ -173,7 +173,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'€ 41,94',
                 'description'=>"Ob im Arbeitszimmer, Wohnzimmer oder Kinderzimmer - das Regal SANDRO bietet modernen Stauraum im angesagten Industrial Style. Mit einer Größe von etwa 72 x 125 x 36 cm (B x H x T) besitzt das schwarze Regal aus pulverbeschichtetem Eisen 3 offene Fächer mit Platz für Ordner und Aufbewahrungsboxen.",
                 'store_id'=>4,
-                'image'=>asset('storage/images/möma4.png'),
+                'image'=>'möma4.png',
                 'quantity'=>'10',
             ],
             [
@@ -181,7 +181,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'€ 293,30',
                 'description'=>"Der Drehtürenschrank Milos 5T1S in Weiss vereint modernes Design und großzügigen Stauraum. Die helle Farbgebung in Kombination mit schwarzen Griffleisten sorgt für eine frische, moderne Atmosphäre, die perfekt in jedes Schlafzimmer passt. Mit Maßen von ca. 225 x 210 x 54 cm (B x H x T) bietet der Schrank Platz für Kleidung und Accessoires.",
                 'store_id'=>4,
-                'image'=>asset('storage/images/möma5.png'),
+                'image'=>'möma5.png',
                 'quantity'=>'10',
             ],
             [
@@ -189,7 +189,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'€ 167,24',
                 'description'=>'Dieser attraktive Esstisch in Braun und Schwarz bietet Ihnen einen gemütlichen Essplatz zum Speisen. Die Kante in Baumform verleiht der Tischplatte aus massivem Akazienholz eine besonders individuelle Optik. Die kufenförmigen Füße aus Metall in Schwarz sorgen für stabilen Stand.',
                 'store_id'=>4,
-                'image'=>asset('storage/images/möma6.png'),
+                'image'=>'möma6.png',
                 'quantity'=>'10',
             ],
             [
@@ -197,7 +197,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'€ 25,13',
                 'description'=>'Dieser Sessel in Grau ist eine schicke und flexible Sitzgelegenheit für viele Wohnbereiche. Schlicht und geradlinig in der Optik, lässt er sich optimal zu unterschiedlichen Stilrichtungen kombinieren.Der ca. 43,5 x 87 x 54 cm (B x H x T) große Sessel kann mit einem anschmiegsamen Samtbezug aus 100 % Polyester aufwarten. Die weiche Schaumstoffpolsterung sorgt für angenehmen Sitzkomfort. Rundrohrbeine in Schwarz unterstreichen den stilvollen Look und verleihen dem bis max. 120 kg belastbaren Sessel die nötige Stabilität. Ein Sitzplatz zum Wohlfühlen. ',
                 'store_id'=>4,
-                'image'=>asset('storage/images/möma7.png'),
+                'image'=>'möma7.png',
                 'quantity'=>'10',
             ],
             [
@@ -205,7 +205,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'€ 226,07',
                 'description'=>'Entdecken Sie das elegante Polsterbett in Hellgrau – eine perfekte Kombination aus Komfort, Funktionalität und Design. Mit einer großzügigen Liegefläche von ca. 180 x 200 cm (B x L) und einer Gesamthöhe von ca. 96 cm bietet dieses Bett nicht nur viel Platz, sondern auch eine angenehme Komforthöhe von ca. 50 cm, die den Ein- und Ausstieg erleichtert. Das gepolsterte Kopfteil mit parallel verlaufender Naht sorgt für eine gemütliche Atmosphäre und lädt zum Anlehnen ein.',
                 'store_id'=>4,
-                'image'=>asset('storage/images/möma8.png'),
+                'image'=>'möma8.png',
                 'quantity'=>'10',
             ],
             //Höffner
@@ -214,7 +214,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'24,50 €',
                 'description'=>'Echter Genuss: Mit dem wunderschönen Trinkglas aus der Serie TIVOLI zeigen Sie Stil. Dieses harmonisch geformte Trinkglas ist ein absolutes Must-Have. Gestalten Sie den Alltag ganz nach Ihrem Geschmack. Mit beständiger Brillanz und Transparenz überzeugen Teqton Produkte dank der verbesserten Oberflächenhärte. Dies macht sie besonders langlebig und kratzfest. Das praktische TIVOLI Trinkglas ist spülmaschinenfest und eignet sich damit hervorragend für den täglichen Einsatz. Das Set besteht aus 6 gleichen Trinkgläsern.',
                 'store_id'=>2,
-                'image'=>asset('storage/images/Höffner1.png'),
+                'image'=>'Höffner1.png',
                 'quantity'=>'10',
             ],
             [
@@ -222,7 +222,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>"12,90€",
                 'description'=>'Die Messer verfügen über langlebige Schärfe, gehärtete Klingen aus rostfreiem und säurebeständigem, spezialbeschichtetem Klingenstahl sowie rutschfeste ergonomische Griffe, die perfekt in der Hand liegen. Praktische Klingenschutzhüllen ermöglichen die unkomplizierte Aufbewahrung in der Besteckschublade.',
                 'store_id'=>2,
-                'image'=>asset('storage/images/Höffner2.png'),
+                'image'=>'Höffner2.png',
                 'quantity'=>'10',
             ],
             [
@@ -230,7 +230,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'499,00 €',
                 'description'=>'GRAEF Siebträgermaschine ES 902',
                 'store_id'=>2,
-                'image'=>asset('storage/images/Höffner3.png'),
+                'image'=>'Höffner3.png',
                 'quantity'=>'10',
             ],
             [
@@ -238,7 +238,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'9,00€',
                 'description'=>'Aufbewahrungsbox, 3er-Set Punkte',
                 'store_id'=>2,
-                'image'=>asset('storage/images/Höffner4.png'),
+                'image'=>'Höffner4.png',
                 'quantity'=>'10',
             ],
             [
@@ -246,7 +246,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>"2.588,00€",
                 'description'=>'Samsung Cross-Door Kühl-/Gefrierkombination RF65DG9H0EB1EF',
                 'store_id'=>2,
-                'image'=>asset('storage/images/Höffner5.png'),
+                'image'=>'Höffner5.png',
                 'quantity'=>'10',
             ],
             [
@@ -254,7 +254,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'65,40€',
                 'description'=>'Dieses edle Topfset ist der Star in jeder Küche. Die Griffe in Holzoptik und die Marmorbeschichtung sind ein Blickfang. Das geschmiedete Aluminium ist besonders fest und haltbar, durch die Antihaftbeschichtung wird ein Anbraten verhindert. Die gute Wärmeleiteigenschaften sorgen für schnelles Erhitzen und langes Speichern der Wärme.',
                 'store_id'=>2,
-                'image'=>asset('storage/images/Höffner6.png'),
+                'image'=>'Höffner6.png',
                 'quantity'=>'10',
             ],
             [
@@ -262,7 +262,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'22,50€',
                 'description'=>'levelone Tischleuchte, 1-flammig, Stoffschirm weiß',
                 'store_id'=>2,
-                'image'=>asset('storage/images/Höffner7.png'),
+                'image'=>'Höffner7.png',
                 'quantity'=>'10',
             ],
             [
@@ -270,7 +270,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'199,00€',
                 'description'=>'Spiegel mit LED oval Obersee',
                 'store_id'=>2,
-                'image'=>asset('storage/images/Höffner8.png'),
+                'image'=>'Höffner8.png',
                 'quantity'=>'10',
             ],
             //Abp_abdo
@@ -279,7 +279,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'$12',
                 'description'=>'A rich and creamy combination of avocado and chocolate, usually blended into a mousse or dessert bowl.  ',
                 'store_id'=>5,
-                'image'=>asset('storage/images/Avocado_with_chocolate.jpg'),
+                'image'=>'Avocado_with_chocolate.jpg',
                 'quantity'=>'10',
             ],
             [
@@ -287,7 +287,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'$10',
                 'description'=>'A refreshing mix of creamy avocado paired with the tropical sweetness of ripe mangoes. Often served as a salad or smoothie bowl',
                 'store_id'=>5,
-                'image'=>asset('storage/images/Avocado Mango.jpg'),
+                'image'=>'Avocado_Mango.jpg',
                 'quantity'=>'10',
             ],
             [
@@ -295,15 +295,15 @@ class ProductTableSeeder extends Seeder
                 'price'=>'$8',
                 'description'=>' A colorful mix of seasonal fruits, often garnished with a touch of mint or a drizzle of honey.  ',
                 'store_id'=>5,
-                'image'=>asset('storage/images/Fruit_Salad.jpg'),
+                'image'=>'Fruit_Salad.jpg',
                 'quantity'=>'10',
             ],
             [
-                'name'=>'Kinder Chocolate Salad',
+                'name'=>'Kinder Fruit Salad',
                 'price'=>'$12',
                 'description'=>'A creative dessert salad featuring pieces of Kinder chocolate mixed with whipped cream, nuts, or fruit for a fun twist.  ',
                 'store_id'=>5,
-                'image'=>asset('storage/images/kinder chocolate salad.jpg'),
+                'image'=>'kinder_fruit_salad.jpg',
                 'quantity'=>'10',
             ],
             //crispyWay
@@ -312,7 +312,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'$12',
                 'description'=>' A spicy and tangy chicken burger with crispy fried chicken, Buffalo sauce, lettuce, and ranch or blue cheese dressing in a toasted bun.  ',
                 'store_id'=>6,
-                'image'=>asset('storage/images/Buffalo_Chicken_Burger.jpg'),
+                'image'=>'Buffalo_Chicken_Burger.jpg',
                 'quantity'=>'10',
             ],
             [
@@ -320,7 +320,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'$15',
                 'description'=>' A bold dish featuring Buffalo-flavored fried chicken or wings drizzled with tangy hot sauce, served with a creamy dip and a side of fries or salad',
                 'store_id'=>6,
-                'image'=>asset('storage/images/Buffalo_FALLS.jpg'),
+                'image'=>'Buffalo_FALLS.png',
                 'quantity'=>'10',
             ],
             [
@@ -328,7 +328,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'$12 ',
                 'description'=>' A classic salad with crisp romaine lettuce, croutons, Parmesan cheese, and Caesar dressing, often topped with grilled chicken or shrimp.  ',
                 'store_id'=>6,
-                'image'=>asset('storage/images/Caesar_salad.jpg'),
+                'image'=>'Caesar_salad.jpg',
                 'quantity'=>'10',
             ],
             [
@@ -336,7 +336,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'$14',
                 'description'=>'A decadent cheesy delight, such as a sandwich, burger, or pasta dish, loaded with layers of melted cheeses for cheese lovers.  ',
                 'store_id'=>6,
-                'image'=>asset('storage/images/cheese_heaven.jpg'),
+                'image'=>'cheese_heaven.jpg',
                 'quantity'=>'10',
             ],
 
