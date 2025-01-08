@@ -19,6 +19,9 @@ class CategoryStoreController extends Controller
     }
     public function getStores($id){
         $stores=Category::query()->findOrFail($id)->stores;
+        foreach ($stores as $store) {
+            $store->image=asset('storage/images/'.$store->image);
+        }
         return response()->json($stores,200);
     }
     public function getProducts($id){
