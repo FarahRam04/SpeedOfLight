@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Product;
 use App\Models\Purchase;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -19,6 +20,8 @@ class PurchasesController extends Controller
         foreach ($request->all() as $purchaseData) {
             $purchaseData['user_id'] = Auth::id();
             Purchase::create($purchaseData);
+            $main_product_id=$purchaseData['product_id'];
+            Product::find($main_product_id)->decrement('quantity', $purchaseData['quantity']);//update the quantity for the original product
         }
         return response()->json(['message'=>'Purchases added successfully.'],200);
 
