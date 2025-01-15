@@ -32,7 +32,7 @@ class ProductTableSeeder extends Seeder
             ],
             [
                 'name'=>'Modmax 5-Piece Performance Fabric Modular Sectional',
-                'price'=>'$2,000.00',
+                'price'=>'$2.000.00',
                 'description'=> "Looking cool and contemporary is great. But when it comes down to it, you’re all about low-maintenance lounging. With the performance fabric on the Modmax sectional, cleaning spills is a breeze. And its customizable modular design caters to your ever-changing needs, whether you're setting up for family movie night or need extra seating when guests drop by.",
                 'store_id'=>1,
                 'image'=>'Ashley3.png',
@@ -81,7 +81,7 @@ class ProductTableSeeder extends Seeder
             //  IKEA
             [
                 'name'=>'IKEA Linnmon/Adils Office Desk',
-                'price'=>'£235.70',
+                'price'=>'$235.70',
                 'description'=>"Elevate your home office or workspace with the IKEA Linnmon/Adils Office Desk, a versatile and stylish solution for your work needs. This desk combines the clean lines and minimalist aesthetic of the Linnmon series with the sturdy and functional design of the Adils legs, creating a perfect blend of form and function.",
                 'store_id'=>3,
                 'image'=>'IKEA1.png',
@@ -89,7 +89,7 @@ class ProductTableSeeder extends Seeder
             ],
             [
                 'name'=>'Handwoven Natural Fibre Doors',
-                'price'=>'£32.57',
+                'price'=>'$32.57',
                 'description'=>"We're excited to introduce this innovative product: AELS natural fiber doors, designed specifically for kallax shelving units and other cubby storage shelves. With different dimensions available, please measure your cube storage bookcase organizer and choose the right size. ",
                 'store_id'=>3,
                 'image'=>'IKEA2.png',
@@ -97,7 +97,7 @@ class ProductTableSeeder extends Seeder
             ],
             [
                 'name'=>'Gronlid Covers set 3-Seater Sofa in Tallmyra Dark Red',
-                'price'=>'£363.81',
+                'price'=>'$363.81',
                 'description'=>"Brand new,in original Ikea package, Tallmyra Dark Red covers set, designed to fit the Gronlid 3-Seater Sofa only Brand new, complete set of replacement covers for frame, armrests and cushions Cover is easy to keep clean as is removable and can be machine washed Ikea article numbers: 503.968.76 ( 3-seat section covers) 303.970.23 ( armrests covers) Colour: Tallmyra Dark Red Please note: Listing is for cover only, no furniture is included in the sale price.",
                 'store_id'=>3,
                 'image'=>'IKEA3.png',
@@ -105,7 +105,7 @@ class ProductTableSeeder extends Seeder
             ],
             [
                 'name'=>'Easy Fit The Heavy Duty Cotton Karlstad Corner Sofa Cover (2+3/3+2)',
-                'price'=>'£462.08',
+                'price'=>'$462.08',
                 'description'=>"This is for Karlstad corner sofa cover. The package contains 16 pieces (Sofa cover + all the cushion covers). We only use high quality cotton for this sofa cover * compatible for Ikea karlstad sectional sofa cover, and we run a number of tests to make sure that our cover fits well to Ikea Karlstad corner sofa . The package includes one set of sofa covers, 16 pieces. Warning: These are sofa covers. Sofa is not included!",
                 'store_id'=>3,
                 'image'=>'IKEA4.png',
@@ -113,7 +113,7 @@ class ProductTableSeeder extends Seeder
             ],
             [
                 'name'=>'Wooden Utility Step,Beige New',
-                'price'=>'£53.61',
+                'price'=>'$53.61',
                 'description'=>"Storing things in a high place is neat, but it is difficult to get them out. This step stool product can be used to take out things from high places in the closet, and it looks good. Solid wood is a hardwearing natural material. Hand-hole in the top step makes the step stool easy to move. For indoor use. For increased stability, re-tighten the screws about two weeks after assembly and when necessary. Assembly Required.",
                 'store_id'=>3,
                 'image'=>'IKEA5.png',
@@ -121,7 +121,7 @@ class ProductTableSeeder extends Seeder
             ],
             [
                 'name'=>'MILUKA Set 2 Bedroom Nightstands Gray 40 x 20 cm',
-                'price'=>'£27.25',
+                'price'=>'$27.25',
                 'description'=>"Robust and durable: these floating bedside tables are made of 2 mm thick powder-coated steel, which gives it strength and firmness. Its surface is anti-fingerprint and durable, with a beautiful matte textured finish.",
                 'store_id'=>3,
                 'image'=>'IKEA6.png',
@@ -129,7 +129,7 @@ class ProductTableSeeder extends Seeder
             ],
             [
                 'name'=>'ORLISA Drawer Organiser',
-                'price'=>'£11.05',
+                'price'=>'$11.05',
                 'description'=>"Drawer Organiser/Organiser System for Clothes",
                 'store_id'=>3,
                 'image'=>'IKEA7.png',
@@ -137,7 +137,7 @@ class ProductTableSeeder extends Seeder
             ],
             [
                 'name'=>'Ikea Skubb Hanging Clothes Closet Storage Organizer Rack Black',
-                'price'=>'£74.82',
+                'price'=>'$74.82',
                 'description'=>"Lightweight, economical and sturdy closet organization products from IKEA. Make sure and look for the availability of a matching Skubb Closet SHOE organizer, too!",
                 'store_id'=>3,
                 'image'=>'IKEA8.png',
@@ -146,7 +146,7 @@ class ProductTableSeeder extends Seeder
             //möma
             [
                 'name'=>'Rollcontainer Memphis in Eiche Artisan/Graphitfarben',
-                'price'=>'€ 116,82',
+                'price'=>'$116.82',
                 'description'=>'Entdecken Sie mit unserem Rollcontainer die optimale Lösung für Ihre Büroorganisation. Mit Maßen von ca. 45 cm Breite, 66 cm Höhe und 55 cm Tiefe bietet dieser Rollcontainer aus hochwertigem Holzwerkstoff reichlich Platz für Ihre Unterlagen und Büromaterialien.',
                 'store_id'=>4,
                 'image'=>'möma1.png',
@@ -154,7 +154,7 @@ class ProductTableSeeder extends Seeder
             ],
             [
                 'name'=>'Weihnachtsbaum Voss ca. 185cm hoch',
-                'price'=>'€ 99,50',
+                'price'=>'$99.50',
                 'description'=>'Diesen traditionellen Weihnachtsbaum aus Kunststoff und Metall holen Sie alle Jahre wieder aus dem Keller hervor. Der grüne Kunststoffbaum besitzt einen Durchmesser von ca. 99 cm und begeistert mit einer Höhe von etwa 185 cm - ohne glänzende Spitze. Festlich behangen mit Kugeln in Gold und Rot versprüht der Baum im Handumdrehen strahlenden Charme. Zudem ist der Baum mit einem praktischen Ständer und einer LED-Lichterkette ausgestattet.',
                 'store_id'=>4,
                 'image'=>'möma2.png',
@@ -162,7 +162,7 @@ class ProductTableSeeder extends Seeder
             ],
             [
                 'name'=>'Respekta Küchenzeile Economy m. Geräte Grau/Nussbaum B: ca. 180 cm',
-                'price'=>'€ 767,‒',
+                'price'=>'$767',
                 'description'=>"Das Küchenmodell in Grau und Weiß mit alufarbenen Bügelgriffen überzeugt durch seine übersichtliche Größe und seine zweckmäßige Ausstattung. Kombiniert mit einer ca. 28 mm starken Arbeitsplatte in Nussbaum Dekor wirkt das Ensemble aus drei Ober- und zwei Unterschränken (davon ein Spülenunterschrank) schön wohnlich.",
                 'store_id'=>4,
                 'image'=>'möma3.png',
@@ -170,7 +170,7 @@ class ProductTableSeeder extends Seeder
             ],
             [
                 'name'=>'Rollwagen Sandro Schwarz Metall Klappbar',
-                'price'=>'€ 41,94',
+                'price'=>'$41.94',
                 'description'=>"Ob im Arbeitszimmer, Wohnzimmer oder Kinderzimmer - das Regal SANDRO bietet modernen Stauraum im angesagten Industrial Style. Mit einer Größe von etwa 72 x 125 x 36 cm (B x H x T) besitzt das schwarze Regal aus pulverbeschichtetem Eisen 3 offene Fächer mit Platz für Ordner und Aufbewahrungsboxen.",
                 'store_id'=>4,
                 'image'=>'möma4.png',
@@ -178,7 +178,7 @@ class ProductTableSeeder extends Seeder
             ],
             [
                 'name'=>'Drehtürenschrank Milos 5T1S Weiß',
-                'price'=>'€ 293,30',
+                'price'=>'$293.30',
                 'description'=>"Der Drehtürenschrank Milos 5T1S in Weiss vereint modernes Design und großzügigen Stauraum. Die helle Farbgebung in Kombination mit schwarzen Griffleisten sorgt für eine frische, moderne Atmosphäre, die perfekt in jedes Schlafzimmer passt. Mit Maßen von ca. 225 x 210 x 54 cm (B x H x T) bietet der Schrank Platz für Kleidung und Accessoires.",
                 'store_id'=>4,
                 'image'=>'möma5.png',
@@ -186,7 +186,7 @@ class ProductTableSeeder extends Seeder
             ],
             [
                 'name'=>'Esstisch Malmo Echtholz ca. 160x85x76 cm',
-                'price'=>'€ 167,24',
+                'price'=>'$167.24',
                 'description'=>'Dieser attraktive Esstisch in Braun und Schwarz bietet Ihnen einen gemütlichen Essplatz zum Speisen. Die Kante in Baumform verleiht der Tischplatte aus massivem Akazienholz eine besonders individuelle Optik. Die kufenförmigen Füße aus Metall in Schwarz sorgen für stabilen Stand.',
                 'store_id'=>4,
                 'image'=>'möma6.png',
@@ -194,7 +194,7 @@ class ProductTableSeeder extends Seeder
             ],
             [
                 'name'=>'Stuhl Ria Grau Samt',
-                'price'=>'€ 25,13',
+                'price'=>'$25.13',
                 'description'=>'Dieser Sessel in Grau ist eine schicke und flexible Sitzgelegenheit für viele Wohnbereiche. Schlicht und geradlinig in der Optik, lässt er sich optimal zu unterschiedlichen Stilrichtungen kombinieren.Der ca. 43,5 x 87 x 54 cm (B x H x T) große Sessel kann mit einem anschmiegsamen Samtbezug aus 100 % Polyester aufwarten. Die weiche Schaumstoffpolsterung sorgt für angenehmen Sitzkomfort. Rundrohrbeine in Schwarz unterstreichen den stilvollen Look und verleihen dem bis max. 120 kg belastbaren Sessel die nötige Stabilität. Ein Sitzplatz zum Wohlfühlen. ',
                 'store_id'=>4,
                 'image'=>'möma7.png',
@@ -202,7 +202,7 @@ class ProductTableSeeder extends Seeder
             ],
             [
                 'name'=>'Polsterbett Julie ca. 180x200 cm Hellgrau',
-                'price'=>'€ 226,07',
+                'price'=>'$226.07',
                 'description'=>'Entdecken Sie das elegante Polsterbett in Hellgrau – eine perfekte Kombination aus Komfort, Funktionalität und Design. Mit einer großzügigen Liegefläche von ca. 180 x 200 cm (B x L) und einer Gesamthöhe von ca. 96 cm bietet dieses Bett nicht nur viel Platz, sondern auch eine angenehme Komforthöhe von ca. 50 cm, die den Ein- und Ausstieg erleichtert. Das gepolsterte Kopfteil mit parallel verlaufender Naht sorgt für eine gemütliche Atmosphäre und lädt zum Anlehnen ein.',
                 'store_id'=>4,
                 'image'=>'möma8.png',
@@ -211,7 +211,7 @@ class ProductTableSeeder extends Seeder
             //Höffner
             [
                 'name'=>'LEONARDO Whiskygläser, 6er-Set Tivoli',
-                'price'=>'24,50 €',
+                'price'=>'$24.50',
                 'description'=>'Echter Genuss: Mit dem wunderschönen Trinkglas aus der Serie TIVOLI zeigen Sie Stil. Dieses harmonisch geformte Trinkglas ist ein absolutes Must-Have. Gestalten Sie den Alltag ganz nach Ihrem Geschmack. Mit beständiger Brillanz und Transparenz überzeugen Teqton Produkte dank der verbesserten Oberflächenhärte. Dies macht sie besonders langlebig und kratzfest. Das praktische TIVOLI Trinkglas ist spülmaschinenfest und eignet sich damit hervorragend für den täglichen Einsatz. Das Set besteht aus 6 gleichen Trinkgläsern.',
                 'store_id'=>2,
                 'image'=>'Höffner1.png',
@@ -219,7 +219,7 @@ class ProductTableSeeder extends Seeder
             ],
             [
                 'name'=>'WMF 2er-Messerset Touch',
-                'price'=>"12,90€",
+                'price'=>"$12.90",
                 'description'=>'Die Messer verfügen über langlebige Schärfe, gehärtete Klingen aus rostfreiem und säurebeständigem, spezialbeschichtetem Klingenstahl sowie rutschfeste ergonomische Griffe, die perfekt in der Hand liegen. Praktische Klingenschutzhüllen ermöglichen die unkomplizierte Aufbewahrung in der Besteckschublade.',
                 'store_id'=>2,
                 'image'=>'Höffner2.png',
@@ -227,7 +227,7 @@ class ProductTableSeeder extends Seeder
             ],
             [
                 'name'=>'GRAEF Siebträgermaschine ES 902',
-                'price'=>'499,00 €',
+                'price'=>'$499.00',
                 'description'=>'GRAEF Siebträgermaschine ES 902',
                 'store_id'=>2,
                 'image'=>'Höffner3.png',
@@ -235,7 +235,7 @@ class ProductTableSeeder extends Seeder
             ],
             [
                 'name'=>'Aufbewahrungsbox, 3er-Set Punkte',
-                'price'=>'9,00€',
+                'price'=>'$9.00',
                 'description'=>'Aufbewahrungsbox, 3er-Set Punkte',
                 'store_id'=>2,
                 'image'=>'Höffner4.png',
@@ -243,7 +243,7 @@ class ProductTableSeeder extends Seeder
             ],
             [
                 'name'=>'Samsung Cross-Door Kühl-/Gefrierkombination RF65DG9H0EB1EF',
-                'price'=>"2.588,00€",
+                'price'=>"$2.588.00",
                 'description'=>'Samsung Cross-Door Kühl-/Gefrierkombination RF65DG9H0EB1EF',
                 'store_id'=>2,
                 'image'=>'Höffner5.png',
@@ -251,7 +251,7 @@ class ProductTableSeeder extends Seeder
             ],
             [
                 'name'=>'KHG Topfset, 4-teilig ARBOR',
-                'price'=>'65,40€',
+                'price'=>'$65.40',
                 'description'=>'Dieses edle Topfset ist der Star in jeder Küche. Die Griffe in Holzoptik und die Marmorbeschichtung sind ein Blickfang. Das geschmiedete Aluminium ist besonders fest und haltbar, durch die Antihaftbeschichtung wird ein Anbraten verhindert. Die gute Wärmeleiteigenschaften sorgen für schnelles Erhitzen und langes Speichern der Wärme.',
                 'store_id'=>2,
                 'image'=>'Höffner6.png',
@@ -259,7 +259,7 @@ class ProductTableSeeder extends Seeder
             ],
             [
                 'name'=>'levelone Tischleuchte, 1-flammig, Stoffschirm weiß',
-                'price'=>'22,50€',
+                'price'=>'$22.50',
                 'description'=>'levelone Tischleuchte, 1-flammig, Stoffschirm weiß',
                 'store_id'=>2,
                 'image'=>'Höffner7.png',
@@ -267,7 +267,7 @@ class ProductTableSeeder extends Seeder
             ],
             [
                 'name'=>'Spiegel mit LED oval Obersee',
-                'price'=>'199,00€',
+                'price'=>'$199.00',
                 'description'=>'Spiegel mit LED oval Obersee',
                 'store_id'=>2,
                 'image'=>'Höffner8.png',
@@ -287,7 +287,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'$10',
                 'description'=>'A refreshing mix of creamy avocado paired with the tropical sweetness of ripe mangoes. Often served as a salad or smoothie bowl',
                 'store_id'=>5,
-                'image'=>'Avocado_Mango.jpg',
+                'image'=>'Avocado_ Mango.jpg',
                 'quantity'=>'10',
             ],
             [
