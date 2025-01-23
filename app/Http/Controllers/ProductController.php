@@ -80,6 +80,9 @@ class ProductController extends Controller
         if ($products->isEmpty()) {
             return response()->json(['message' => 'No products found'], 404);
         }
+        foreach ($products as $product) {
+            $product->image = asset('storage/images/' . $product->image);
+        }
         return response()->json($products,200);
     }
 

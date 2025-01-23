@@ -287,7 +287,7 @@ class ProductTableSeeder extends Seeder
                 'price'=>'$10',
                 'description'=>'A refreshing mix of creamy avocado paired with the tropical sweetness of ripe mangoes. Often served as a salad or smoothie bowl',
                 'store_id'=>5,
-                'image'=>'Avocado_ Mango.jpg',
+                'image'=>'Avocado_Mango.jpg',
                 'quantity'=>'10',
             ],
             [
