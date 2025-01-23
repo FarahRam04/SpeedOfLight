@@ -30,6 +30,11 @@ protected $guarded = [];
         return $this->hasMany(Purchase::class);
     }
 
+    public function favourites()
+    {
+        return $this->hasMany(favorite::class);
+    }
+
     /**
      * The attributes that should be hidden for serialization.
      *

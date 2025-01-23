@@ -29,6 +29,8 @@ Route::get('store/{id}',[CategoryStoreController::class,'getProducts']);//4f//sh
 
 Route::get('/products/top3',[ProductController::class,'top3']);//top 3
 Route::post('/product/search',[ProductController::class,'search']);//1a//searching for products
+Route::post('/product/favorite',[ProductController::class,'favorite'])->middleware('auth:sanctum');
+Route::get('product/getFavorite',[ProductController::class,'getFavorite'])->middleware('auth:sanctum');
 Route::get('/product/{id}', [ProductController::class, 'show']); // لعرض منتج معين//2a
 
 // Purchases
