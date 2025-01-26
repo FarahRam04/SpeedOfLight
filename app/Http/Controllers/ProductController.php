@@ -3,8 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\SearchForProductsRequest;
+use App\Models\favorite;
 use App\Models\Product;
+use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class ProductController extends Controller
 {
@@ -96,5 +99,26 @@ class ProductController extends Controller
         $p3->image_url = asset('storage/images/' . $p3->image);
 
         return response()->json([$p1,$p2,$p3],200);
+    }
+    public function favorite(Request $request)
+    {
+        $validatedData=$request->validate(['product_id' => 'required|integer']);
+        $validatedData['user_id']=Auth::id();
+        favorite::create($validatedData);
+        return response()->json(['message'=>'the favorite product added successfully.'],200);
+
+
+    }
+    public function getFavorite()
+    {
+        $favorites=User::query()->findOrFail(Auth::id())
+        ->favourites()->with('product')->get()
+        ->map(function($favorite){
+            return $favorite->product;
+        });
+        foreach ($favorites as $favorite) {
+            $favorite->image= asset('storage/images/' . $favorite->image);
+        }
+        return response()->json($favorites,200);
     }
 }

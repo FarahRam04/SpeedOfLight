@@ -33,6 +33,9 @@ class PurchasesController extends Controller
             ->get()->map(function($purchase){
                 return $purchase->product;
             });
+        foreach ($purchases as $purchase){
+            $purchase->image=asset('storage/images/' . $purchase->image);
+        }
         return response()->json($purchases,200);
     }
 }
