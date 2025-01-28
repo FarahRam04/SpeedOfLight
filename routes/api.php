@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CategoryStoreController;
 use App\Http\Controllers\ProductController;
@@ -38,5 +39,6 @@ Route::get('/product/{id}', [ProductController::class, 'show']); // لعرض م�
 Route::post('/Purchases/store', [PurchasesController::class, 'store'])->middleware('auth:sanctum');//adding to purchases
 Route::get('/Purchases/user', [PurchasesController::class, 'getPurchases'])->middleware('auth:sanctum');//showing all purchases for a user
 
-
+//admin
+Route::post('/admin/addStore', [AdminController::class, 'addStore'])->middleware('auth:sanctum');
 
