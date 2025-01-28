@@ -41,6 +41,10 @@ class CategoryStoreController extends Controller
         }
         foreach ($stores as $store) {
             $store->image= asset('storage/images/' . $store->image);
+
+
+
+
         }
         return response()->json($stores,200);
     }
